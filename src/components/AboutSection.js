@@ -1,104 +1,105 @@
 import React from "react";
+import ImgSlider from "./ImgSlider";
 
 function AboutSection() {
   return (
-    <section class="events">
-      <div class="container" data-aos="fade-up">
-        <div class="row">
-          <div
-            class="col-lg-6 order-1 order-lg-2"
-            data-aos="zoom-in"
-            data-aos-delay="100"
-          >
-            {/* <!-- <div class="about-img">
-                  <img src="assets/img/about.jpg" alt="" />
-                </div> --> */}
-            <div
-              class="owl-carousel events-carousel"
-              data-aos="fade-up"
-              data-aos-delay="100"
-            >
-              <div class="row event-item">
-                <div class="col-lg-12">
-                  <img src="http://dabangbistro.com/assets/img/about/1.jpg" class="img-fluid" alt="" />
-                </div>
-              </div>
-
-              <div class="row event-item">
-                <div class="col-lg-12">
-                  <img src="http://dabangbistro.com/assets/img/about/2.jpg" class="img-fluid" alt="" />
-                </div>
-              </div>
-
-              <div class="row event-item">
-                <div class="col-lg-12">
-                  <img src="http://dabangbistro.com/assets/img/about/3.jpg" class="img-fluid" alt="" />
-                </div>
-              </div>
-
-              <div class="row event-item">
-                <div class="col-lg-12">
-                  <img src="http://dabangbistro.com/assets/img/about/4.jpg" class="img-fluid" alt="" />
-                </div>
-              </div>
-
-              <div class="row event-item">
-                <div class="col-lg-12">
-                  <img src="http://dabangbistro.com/assets/img/about/5.jpg" class="img-fluid" alt="" />
-                </div>
-              </div>
-
-              <div class="row event-item">
-                <div class="col-lg-12">
-                  <img src="http://dabangbistro.com/assets/img/about/6.jpg" class="img-fluid" alt="" />
-                </div>
-              </div>
-
-              <div class="row event-item">
-                <div class="col-lg-12">
-                  <img src="http://dabangbistro.com/assets/img/about/7.jpg" class="img-fluid" alt="" />
-                </div>
-              </div>
-
-              <div class="row event-item">
-                <div class="col-lg-12">
-                  <img src="http://dabangbistro.com/assets/img/about/8.jpg" class="img-fluid" alt="" />
-                </div>
-              </div>
-
-              <div class="row event-item">
-                <div class="col-lg-12">
-                  <img src="http://dabangbistro.com/assets/img/about/9.jpg" class="img-fluid" alt="" />
-                </div>
-              </div>
-
-              <div class="row event-item">
-                <div class="col-lg-12">
-                  <img src="http://dabangbistro.com/assets/img/about/10.jpg" class="img-fluid" alt="" />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
+    <section className="events">
+      <div className="container" data-aos="fade-up">
+        <div className="row">
+        <div
             id="shft_dwn_abt_us"
-            class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content"
+            className="col-lg-6 content"
           >
-            <h1 class="text-white">
+            <h1 className="text-white">
               {" "}
               <span id="orange">Dabang Bistro </span>- Where We Strive To Serve
               You the Best
             </h1>
 
-            <p class="mt-5 text-white">
+            <p className="mt-5 text-white">
               Come experience delicious Indian Food, along with the exceptional
               service, accompanied by great ambience.
             </p>
-            <p class="text-white">
+            <p className="text-white">
               Our high standards have helped us to grow into what many says the
               best Indian Restaurant for Dine-in, Delivery, Pickup, Corporate
               Events, Parties and Catering / Live Catering in the area.
             </p>
           </div>
+            <div className="col-lg-6">
+                <ImgSlider/>
+            </div>
+          {/* <div
+            className="col-lg-6 order-1 order-lg-2"
+            data-aos="zoom-in"
+            data-aos-delay="100"
+          >
+            <div
+              className="owl-carousel events-carousel"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div className="row event-item">
+                <div className="col-lg-12">
+                  <img src="http://dabangbistro.com/assets/img/about/1.jpg" className="img-fluid" alt="" />
+                </div>
+              </div>
+
+              <div className="row event-item">
+                <div className="col-lg-12">
+                  <img src="http://dabangbistro.com/assets/img/about/2.jpg" className="img-fluid" alt="" />
+                </div>
+              </div>
+
+              <div className="row event-item">
+                <div className="col-lg-12">
+                  <img src="http://dabangbistro.com/assets/img/about/3.jpg" className="img-fluid" alt="" />
+                </div>
+              </div>
+
+              <div className="row event-item">
+                <div className="col-lg-12">
+                  <img src="http://dabangbistro.com/assets/img/about/4.jpg" className="img-fluid" alt="" />
+                </div>
+              </div>
+
+              <div className="row event-item">
+                <div className="col-lg-12">
+                  <img src="http://dabangbistro.com/assets/img/about/5.jpg" className="img-fluid" alt="" />
+                </div>
+              </div>
+
+              <div className="row event-item">
+                <div className="col-lg-12">
+                  <img src="http://dabangbistro.com/assets/img/about/6.jpg" className="img-fluid" alt="" />
+                </div>
+              </div>
+
+              <div className="row event-item">
+                <div className="col-lg-12">
+                  <img src="http://dabangbistro.com/assets/img/about/7.jpg" className="img-fluid" alt="" />
+                </div>
+              </div>
+
+              <div className="row event-item">
+                <div className="col-lg-12">
+                  <img src="http://dabangbistro.com/assets/img/about/8.jpg" className="img-fluid" alt="" />
+                </div>
+              </div>
+
+              <div className="row event-item">
+                <div className="col-lg-12">
+                  <img src="http://dabangbistro.com/assets/img/about/9.jpg" className="img-fluid" alt="" />
+                </div>
+              </div>
+
+              <div className="row event-item">
+                <div className="col-lg-12">
+                  <img src="http://dabangbistro.com/assets/img/about/10.jpg" className="img-fluid" alt="" />
+                </div>
+              </div>
+            </div>
+          </div> */}
         </div>
       </div>
     </section>

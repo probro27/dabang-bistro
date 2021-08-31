@@ -1,0 +1,20 @@
+import React from "react";
+import Header from "./All_Pages/Header";
+import Viewer from "./All_Pages/Viewer";
+import AboutSection from "./Homepage/AboutSection";
+import Features from "./Homepage/Features";
+import Footer from "./All_Pages/Footer";
+
+function Home() {
+  return (
+    <div>
+      <Header />
+      <Viewer />
+      <AboutSection />
+      <Features />
+      <Footer />
+    </div>
+  );
+}
+
+export default Home;

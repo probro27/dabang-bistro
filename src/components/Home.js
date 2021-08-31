@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "./All_Pages/Header";
+import Header from "./Homepage/Header";
 import Viewer from "./All_Pages/Viewer";
 import AboutSection from "./Homepage/AboutSection";
 import Features from "./Homepage/Features";

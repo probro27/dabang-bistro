@@ -1,5 +1,6 @@
 import React from 'react'
 import './styles.css'
+import {Link} from 'react-router-dom'
 
 function Header() {
     return (
@@ -8,8 +9,8 @@ function Header() {
                 <h1 className="logo mr-auto"><img src="http://dabangbistro.com/assets/img/logo.png" className="img-fluid" /></h1>
                 <nav className="nav-menu d-none d-lg-block">
                     <ul id="">
-                        <li className="active"><a href="index.html">Home</a></li>
-                        <li><a href="db-special.html">Specials</a></li>
+                        <li className="active"><Link to ="/">Home</Link></li>
+                        <li><Link to="/special">Specials</Link></li>
                         <li><a href="catering.html">Catering</a></li>
                         <li><a href="gallery.html">Gallery</a></li>
                         <li><a href="loyalty_program.html">Loyalty Program</a></li>

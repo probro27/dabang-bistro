@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import Specials from './components/Specials';
 import Catering from './components/Catering';
+import GalleryPage from './components/GalleryPage';
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
           </Route>
           <Route path="/catering">
             <Catering />
+          </Route>
+          <Route path="/gallery">
+            <GalleryPage />
           </Route>
           <Route path="/">
             <Home />

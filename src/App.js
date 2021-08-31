@@ -3,6 +3,8 @@ import './App.css';
 import Header from './components/Header';
 import Viewer from './components/Viewer';
 import AboutSection from './components/AboutSection';
+import Features from './components/Features';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -10,6 +12,8 @@ function App() {
       <Header />
       <Viewer />
       <AboutSection />
+      <Features />
+      <Footer />
     </div>
   );
 }

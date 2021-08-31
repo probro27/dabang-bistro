@@ -2,7 +2,7 @@ import React from 'react'
 import './styles.css'
 import {Link} from 'react-router-dom'
 
-function HeaderSpecial() {
+function HeaderCatering() {
     return (
         <header id = "header" className= "fixed-top">
             <div className="container d-flex align-items-center">
@@ -10,8 +10,8 @@ function HeaderSpecial() {
                 <nav className="nav-menu d-none d-lg-block">
                     <ul id="">
                         <li><Link to="/">Home</Link></li>
-                        <li className="active"><Link to="/special">Specials</Link></li>
-                        <li><Link to="/catering">Catering</Link></li>
+                        <li><Link to="/special">Specials</Link></li>
+                        <li className="active"><Link to="/catering">Catering</Link></li>
                         <li><Link to="/gallery">Gallery</Link></li>
                         <li><Link to="/loyalty">Loyalty Program</Link></li>
                         <li><Link to="/menu">Menu / Order Online</Link></li>
@@ -24,4 +24,4 @@ function HeaderSpecial() {
     )
 }
 
-export default HeaderSpecial
+export default HeaderCatering

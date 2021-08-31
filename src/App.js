@@ -6,6 +6,7 @@ import {
   Link
 } from "react-router-dom";
 import Specials from './components/Specials';
+import Catering from './components/Catering';
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
         <Switch>
           <Route path="/special">
             <Specials />
+          </Route>
+          <Route path="/catering">
+            <Catering />
           </Route>
           <Route path="/">
             <Home />

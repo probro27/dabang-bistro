@@ -11,12 +11,12 @@ function Header() {
                     <ul id="">
                         <li className="active"><Link to ="/">Home</Link></li>
                         <li><Link to="/special">Specials</Link></li>
-                        <li><a href="catering.html">Catering</a></li>
-                        <li><a href="gallery.html">Gallery</a></li>
-                        <li><a href="loyalty_program.html">Loyalty Program</a></li>
-                        <li><a href="menu-spacial.html">Menu / Order Online</a></li>
-                        <li><a href="reservation.html">Reservation</a></li>
-                        <li className=""><a href="contact-us.html">Contact Us</a></li>
+                        <li><Link to="/catering">Catering</Link></li>
+                        <li><Link to="/gallery">Gallery</Link></li>
+                        <li><Link to="/loyalty">Loyalty Program</Link></li>
+                        <li><Link to="/menu">Menu / Order Online</Link></li>
+                        <li><Link to="reservation">Reservation</Link></li>
+                        <li className=""><Link to="/contact">Contact Us</Link></li>
                     </ul>
                 </nav>
             </div>

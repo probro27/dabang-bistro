@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from './Special/HeaderSpecial'
+import HeaderSpecial from './Special/HeaderSpecial'
 import Viewer from './All_Pages/Viewer'
 import Gallery from './Special/Gallery'
 import Footer from './All_Pages/Footer'
@@ -8,7 +8,7 @@ import Footer from './All_Pages/Footer'
 function Specials() {
     return (
         <div>
-            <Header />
+            <HeaderSpecial />
             <Viewer />
             <Gallery />
             <Footer />

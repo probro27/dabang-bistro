@@ -15,7 +15,7 @@ function HeaderSpecial() {
                         <li><Link to="/gallery">Gallery</Link></li>
                         <li><Link to="/loyalty">Loyalty Program</Link></li>
                         <li><Link to="/menu">Menu / Order Online</Link></li>
-                        <li><Link to="reservation">Reservation</Link></li>
+                        <li><Link to="/reservation">Reservation</Link></li>
                         <li className=""><Link to="/contact">Contact Us</Link></li>
                     </ul>
                 </nav>

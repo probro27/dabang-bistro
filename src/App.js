@@ -8,6 +8,8 @@ import {
 import Specials from './components/Specials';
 import Catering from './components/Catering';
 import GalleryPage from './components/GalleryPage';
+import Loyalty from './components/Loyalty';
+import Reservation from './components/Reservation';
 
 function App() {
   return (
@@ -22,6 +24,12 @@ function App() {
           </Route>
           <Route path="/gallery">
             <GalleryPage />
+          </Route>
+          <Route path="/loyalty">
+            <Loyalty />
+          </Route>
+          <Route path="reservation">
+            <Reservation />
           </Route>
           <Route path="/">
             <Home />

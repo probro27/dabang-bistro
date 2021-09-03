@@ -1,6 +1,6 @@
 import React from "react";
 import emailjs from "emailjs-com";
-import "./styles.css";
+import "../styles.css";
 
 function ContactUs() {
   function sendMail(e) {

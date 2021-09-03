@@ -28,7 +28,7 @@ function App() {
           <Route path="/loyalty">
             <Loyalty />
           </Route>
-          <Route path="reservation">
+          <Route path="/reservation">
             <Reservation />
           </Route>
           <Route path="/">

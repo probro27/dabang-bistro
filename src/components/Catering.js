@@ -9,7 +9,7 @@ function Catering() {
     return (
         <div>
             <HeaderCatering />
-            <Viewer />
+            <Viewer message="Catering" />
             <FeaturesCatering />
             <Testimonials />
             <Footer />

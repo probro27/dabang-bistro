@@ -9,7 +9,7 @@ function Specials() {
     return (
         <div>
             <HeaderSpecial />
-            <Viewer />
+            <Viewer message="Specials" />
             <Gallery />
             <Footer />
         </div>

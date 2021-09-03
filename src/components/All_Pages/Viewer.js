@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import "./styles.css"
 import { Carousel, CarouselItem } from "react-bootstrap";
 
-function Viewer() {
+function Viewer(props) {
     const [index, setIndex] = useState(0);
     const handleSelect = (selectedIndex, e) => {
         setIndex(selectedIndex);
@@ -13,20 +13,7 @@ function Viewer() {
         id="demo"
         className="carousel slide position-relative text-center text-lg-left"
         data-ride="carousel"
-        // style="height: 100vh;"
-      >
-        {/* <ul className="carousel-indicators">
-            <li data-target="#demo" data-slide-to="0" className="active"></li>
-            <li data-target="#demo" data-slide-to="1"></li>
-            <li data-target="#demo" data-slide-to="2"></li>
-            <li data-target="#demo" data-slide-to="3"></li>
-            <li data-target="#demo" data-slide-to="4"></li>
-            <li data-target="#demo" data-slide-to="5"></li>
-            <li data-target="#demo" data-slide-to="6"></li>
-            <li data-target="#demo" data-slide-to="7"></li>
-            <li data-target="#demo" data-slide-to="8"></li>
-            <li data-target="#demo" data-slide-to="9"></li>
-          </ul> */}
+        >
         <Carousel activeIndex = {index} onSelect = {handleSelect}>
           <Carousel.Item>//style="height:100vh;"
             <img
@@ -40,8 +27,13 @@ function Viewer() {
                 <h1 id="db_hd">
                   <span>Dabang Bistro</span>
                 </h1>
-                <h1 id="wy">Welcomes You</h1>
-                <h2 id="ttb">Taste The Best</h2>
+                <h1 id="wy">{props.message}</h1>
+                {
+                  props.message == "Welcome You"?
+                  <h2 id="ttb">Taste the Best</h2>:
+                  null
+                }
+                {/* <h2 id="ttb">Taste The Best</h2> */}
               </div>
             </Carousel.Caption>
           </Carousel.Item>
@@ -57,8 +49,12 @@ function Viewer() {
                 <h1 id="db_hd">
                   <span>Dabang Bistro</span>
                 </h1>
-                <h1 id="wy">Welcomes You</h1>
-                <h2 id="ttb">Taste The Best</h2>
+                <h1 id="wy">{props.message}</h1>
+                {
+                  props.message == "Welcome You"?
+                  <h2 id="ttb">Taste the Best</h2>:
+                  null
+                }
               </div>
             </Carousel.Caption>
           </Carousel.Item>
@@ -74,8 +70,12 @@ function Viewer() {
                 <h1 id="db_hd">
                   <span>Dabang Bistro</span>
                 </h1>
-                <h1 id="wy">Welcomes You</h1>
-                <h2 id="ttb">Taste The Best</h2>
+                <h1 id="wy">{props.message}</h1>
+                {
+                  props.message == "Welcome You"?
+                  <h2 id="ttb">Taste the Best</h2>:
+                  null
+                }
               </div>
             </Carousel.Caption>
           </Carousel.Item>
@@ -91,8 +91,12 @@ function Viewer() {
                 <h1 id="db_hd">
                   <span>Dabang Bistro</span>
                 </h1>
-                <h1 id="wy">Welcomes You</h1>
-                <h2 id="ttb">Taste The Best</h2>
+                <h1 id="wy">{props.message}</h1>
+                {
+                  props.message == "Welcome You"?
+                  <h2 id="ttb">Taste the Best</h2>:
+                  null
+                }
               </div>
             </Carousel.Caption>
           </Carousel.Item>
@@ -108,8 +112,12 @@ function Viewer() {
                 <h1 id="db_hd">
                   <span>Dabang Bistro</span>
                 </h1>
-                <h1 id="wy">Welcomes You</h1>
-                <h2 id="ttb">Taste The Best</h2>
+                <h1 id="wy">{props.message}</h1>
+                {
+                  props.message == "Welcome You"?
+                  <h2 id="ttb">Taste the Best</h2>:
+                  null
+                }
               </div>
             </Carousel.Caption>
           </Carousel.Item>
@@ -125,8 +133,12 @@ function Viewer() {
                 <h1 id="db_hd">
                   <span>Dabang Bistro</span>
                 </h1>
-                <h1 id="wy">Welcomes You</h1>
-                <h2 id="ttb">Taste The Best</h2>
+                <h1 id="wy">{props.message}</h1>
+                {
+                  props.message == "Welcome You"?
+                  <h2 id="ttb">Taste the Best</h2>:
+                  null
+                }
               </div>
             </Carousel.Caption>
           </Carousel.Item>
@@ -142,12 +154,16 @@ function Viewer() {
                 <h1 id="db_hd">
                   <span>Dabang Bistro</span>
                 </h1>
-                <h1 id="wy">Welcomes You</h1>
-                <h2 id="ttb">Taste The Best</h2>
+                <h1 id="wy">{props.message}</h1>
+                {
+                  props.message == "Welcome You"?
+                  <h2 id="ttb">Taste the Best</h2>:
+                  null
+                }
               </div>
             </Carousel.Caption>
           </Carousel.Item>
-          <Carousel.Item>//style="height:100vh;"
+          <Carousel.Item>
             <img
               src="http://dabangbistro.com/assets/img/head-slider/DB%20email%202(Picture7).jpg"
               alt="Los Angeles"
@@ -159,12 +175,16 @@ function Viewer() {
                 <h1 id="db_hd">
                   <span>Dabang Bistro</span>
                 </h1>
-                <h1 id="wy">Welcomes You</h1>
-                <h2 id="ttb">Taste The Best</h2>
+                <h1 id="wy">{props.message}</h1>
+                {
+                  props.message == "Welcome You"?
+                  <h2 id="ttb">Taste the Best</h2>:
+                  null
+                }
               </div>
             </Carousel.Caption>
           </Carousel.Item>
-          <Carousel.Item>//style="height:100vh;"
+          <Carousel.Item>
             <img
               src="http://dabangbistro.com/assets/img/head-slider/DB%20email%202(Picture8).jpg"
               alt="Los Angeles"
@@ -176,12 +196,16 @@ function Viewer() {
                 <h1 id="db_hd">
                   <span>Dabang Bistro</span>
                 </h1>
-                <h1 id="wy">Welcomes You</h1>
-                <h2 id="ttb">Taste The Best</h2>
+                <h1 id="wy">{props.message}</h1>
+                {
+                  props.message == "Welcome You"?
+                  <h2 id="ttb">Taste the Best</h2>:
+                  null
+                }
               </div>
             </Carousel.Caption>
           </Carousel.Item>
-          <Carousel.Item>//style="height:100vh;"
+          <Carousel.Item>
             <img
               src="http://dabangbistro.com/assets/img/head-slider/DB%20email%202(Picture9).jpg"
               alt="Los Angeles"
@@ -193,12 +217,16 @@ function Viewer() {
                 <h1 id="db_hd">
                   <span>Dabang Bistro</span>
                 </h1>
-                <h1 id="wy">Welcomes You</h1>
-                <h2 id="ttb">Taste The Best</h2>
+                <h1 id="wy">{props.message}</h1>
+                {
+                  props.message == "Welcome You"?
+                  <h2 id="ttb">Taste the Best</h2>:
+                  null
+                }
               </div>
             </Carousel.Caption>
           </Carousel.Item>
-          <Carousel.Item>//style="height:100vh;"
+          <Carousel.Item>
             <img
               src="http://dabangbistro.com/assets/img/head-slider/DB%20email%202(Picture10).jpg"
               alt="Los Angeles"
@@ -210,8 +238,12 @@ function Viewer() {
                 <h1 id="db_hd">
                   <span>Dabang Bistro</span>
                 </h1>
-                <h1 id="wy">Welcomes You</h1>
-                <h2 id="ttb">Taste The Best</h2>
+                <h1 id="wy">{props.message}</h1>
+                {
+                  props.message == "Welcome You"?
+                  <h2 id="ttb">Taste the Best</h2>:
+                  null
+                }
               </div>
             </Carousel.Caption>
           </Carousel.Item>

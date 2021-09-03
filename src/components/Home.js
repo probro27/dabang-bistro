@@ -9,7 +9,7 @@ function Home() {
   return (
     <div>
       <Header />
-      <Viewer />
+      <Viewer message="Welcome You" />
       <AboutSection />
       <Features />
       <Footer />

@@ -8,7 +8,7 @@ function GalleryPage() {
     return (
         <div>
             <HeaderGallery />
-            <Viewer />
+            <Viewer message="Gallery" />
             <PicsVids />
             <Footer />
         </div>

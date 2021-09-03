@@ -9,7 +9,7 @@ function Reservation() {
     return (
         <div>
             <HeaderReserve />
-            <Viewer />
+            <Viewer message="Reservation" />
             <Parallax />
             <BookTable />
             <Footer />

@@ -10,6 +10,7 @@ import Catering from './components/Catering';
 import GalleryPage from './components/GalleryPage';
 import Loyalty from './components/Loyalty';
 import Reservation from './components/Reservation';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -30,6 +31,9 @@ function App() {
           </Route>
           <Route path="/reservation">
             <Reservation />
+          </Route>
+          <Route path="/contact">
+            <Contact />
           </Route>
           <Route path="/">
             <Home />

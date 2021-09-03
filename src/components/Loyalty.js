@@ -8,7 +8,7 @@ function Loyalty() {
     return (
         <div>
             <HeaderLoyalty />
-            <Viewer />
+            <Viewer message="Loyalty Programs" />
             <ComingSoon />
             <Footer />
         </div>

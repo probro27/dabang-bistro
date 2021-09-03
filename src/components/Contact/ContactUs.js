@@ -25,7 +25,7 @@ function ContactUs() {
     e.target.reset();
   }
   return (
-    <div className="book-a-table">
+    <div className="book-a-table contact">
       <div className="pt-5"></div>
       <div className="container" data-aos="fade-up">
         <div className="row mt-5">
@@ -36,14 +36,14 @@ function ContactUs() {
               </p>
 
               <div className="email">
-                <i className="icofont-envelope"></i>
+                <i className="fas fa-envelope"></i>
                 <h4>Email:</h4>
                 <p>info@dabangbistro.com</p>
                 <p>social@dabangbistro.com</p>
               </div>
 
               <div className="phone">
-                <i className="icofont-phone"></i>
+                <i className="fas fa-phone-square-alt"></i>
                 <h4>Call:</h4>
                 <p>1 905 922 1313</p>
               </div>

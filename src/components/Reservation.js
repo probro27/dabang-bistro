@@ -6,6 +6,7 @@ import HeaderReserve from "./Reservation/HeaderReserve";
 import Parallax from "./Reservation/Parallax";
 import ClipLoader from "react-spinners/ClipLoader";
 import { css } from "@emotion/react";
+import Scroll from "./All_Pages/Scroll";
 
 function Reservation() {
   const [loading, setLoading] = useState(false);
@@ -39,6 +40,7 @@ function Reservation() {
           <Parallax />
           <BookTable />
           <Footer />
+          <Scroll showBelow={250} />
         </div>
       )}
     </div>

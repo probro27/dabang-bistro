@@ -5,6 +5,7 @@ import ComingSoon from "./Loyalty/ComingSoon";
 import HeaderLoyalty from "./Loyalty/HeaderLoyalty";
 import ClipLoader from "react-spinners/ClipLoader";
 import { css } from "@emotion/react";
+import Scroll from "./All_Pages/Scroll";
 
 function Loyalty() {
   const [loading, setLoading] = useState(false);
@@ -37,6 +38,7 @@ function Loyalty() {
           <Viewer message="Loyalty Programs" />
           <ComingSoon />
           <Footer />
+          <Scroll showBelow={250} />
         </div>
       )}
     </div>

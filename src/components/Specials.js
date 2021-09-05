@@ -5,6 +5,7 @@ import Gallery from "./Special/Gallery";
 import Footer from "./All_Pages/Footer";
 import ClipLoader from "react-spinners/ClipLoader";
 import { css } from "@emotion/react";
+import Scroll from "./All_Pages/Scroll";
 
 function Specials() {
   const [loading, setLoading] = useState(false);
@@ -37,6 +38,7 @@ function Specials() {
           <Viewer message="Specials" />
           <Gallery />
           <Footer />
+          <Scroll showBelow={250} />
         </div>
       )}
     </div>

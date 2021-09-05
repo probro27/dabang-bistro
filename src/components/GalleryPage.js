@@ -5,6 +5,7 @@ import HeaderGallery from "./GalleryPage/HeaderGallery";
 import PicsVids from "./GalleryPage/PicsVids";
 import ClipLoader from "react-spinners/ClipLoader";
 import { css } from "@emotion/react";
+import Scroll from "./All_Pages/Scroll";
 
 function GalleryPage() {
   const [loading, setLoading] = useState(false);
@@ -37,6 +38,7 @@ function GalleryPage() {
           <Viewer message="Gallery" />
           <PicsVids />
           <Footer />
+          <Scroll showBelow={250} />
         </div>
       )}
     </div>

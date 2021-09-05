@@ -6,6 +6,7 @@ import HeaderContact from "./Contact/HeaderContact";
 import Map from "./Contact/Map";
 import ClipLoader from "react-spinners/ClipLoader";
 import { css } from "@emotion/react";
+import Scroll from "./All_Pages/Scroll";
 
 function Contact() {
   const [loading, setLoading] = useState(false);
@@ -39,6 +40,7 @@ function Contact() {
           <Map />
           <ContactUs />
           <Footer />
+          <Scroll showBelow={250} />
         </div>
       )}
     </div>

@@ -2,8 +2,10 @@ import React, { useState, useEffect } from "react";
 import Viewer from "./All_Pages/Viewer";
 import HeaderMenu from "./MenuPage/HeaderMenu";
 import MenuBar from "./MenuPage/MenuBar";
+import Footer from "./All_Pages/Footer";
 import ClipLoader from "react-spinners/ClipLoader";
 import { css } from "@emotion/react";
+import Scroll from "./All_Pages/Scroll";
 
 function MenuPage() {
   const [loading, setLoading] = useState(false);
@@ -35,6 +37,8 @@ function MenuPage() {
           <HeaderMenu />
           <Viewer message="Menu / Online Order" />
           <MenuBar />
+          <Footer />
+          <Scroll showBelow={250} />
         </div>
       )}
     </div>

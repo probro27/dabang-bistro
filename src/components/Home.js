@@ -6,6 +6,7 @@ import Features from "./Homepage/Features";
 import Footer from "./All_Pages/Footer";
 import ClipLoader from "react-spinners/ClipLoader";
 import { css } from "@emotion/react";
+import Scroll from "./All_Pages/Scroll";
 
 function Home() {
   const [loading, setLoading] = useState(false);
@@ -39,6 +40,7 @@ function Home() {
           <AboutSection />
           <Features />
           <Footer />
+          <Scroll showBelow={250} />
         </div>
       )}
     </div>

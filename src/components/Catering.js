@@ -6,6 +6,7 @@ import HeaderCatering from "./Catering/HeaderCatering";
 import Testimonials from "./Catering/Testimonials";
 import ClipLoader from "react-spinners/ClipLoader";
 import { css } from "@emotion/react";
+import Scroll from "./All_Pages/Scroll";
 
 function Catering() {
   const [loading, setLoading] = useState(false);
@@ -39,6 +40,7 @@ function Catering() {
           <FeaturesCatering />
           <Testimonials />
           <Footer />
+          <Scroll showBelow={250} />
         </div>
       )}
     </div>

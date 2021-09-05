@@ -14,7 +14,7 @@ function Header() {
                         <li><Link to="/catering">Catering</Link></li>
                         <li><Link to="/gallery">Gallery</Link></li>
                         <li><Link to="/loyalty">Loyalty Program</Link></li>
-                        <li className="/menu"><Link to="/menu">Menu / Order Online</Link></li>
+                        <li className="active"><Link to="/menu">Menu / Order Online</Link></li>
                         <li><Link to="/reservation">Reservation</Link></li>
                         <li><Link to="/contact">Contact Us</Link></li>
                     </ul>

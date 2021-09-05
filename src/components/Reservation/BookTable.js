@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles.css";
+import "../styles.css";
 import emailjs from "emailjs-com";
 
 function BookTable() {

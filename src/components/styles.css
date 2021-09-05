@@ -323,6 +323,50 @@ body {
       content: "\ea9d";
     }
   }
+
+  #navbar {
+    overflow: hidden;
+    z-index: 1;
+    background-color: #1a1814;
+  }
+  
+  #navbar a {
+    float: left;
+    display: block;
+    color: #f9921a;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  #navbar a:hover {
+    color: #f9921a;
+    font-weight: 600;
+    border-bottom: 2px solid #f9921a;
+  }
+  
+  #navbar a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .content {
+    padding: 16px;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 90px;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  }
+  .mt-6{
+        margin-top : 3.5rem !important;
+      }
   
   /* Mobile Navigation */
   .mobile-nav-toggle {

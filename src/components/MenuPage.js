@@ -1,13 +1,11 @@
 import React, { useState, useEffect } from "react";
-import Footer from "./All_Pages/Footer";
 import Viewer from "./All_Pages/Viewer";
-import ContactUs from "./Contact/ContactUs";
-import HeaderContact from "./Contact/HeaderContact";
-import Map from "./Contact/Map";
+import HeaderMenu from "./MenuPage/HeaderMenu";
+import MenuBar from "./MenuPage/MenuBar";
 import ClipLoader from "react-spinners/ClipLoader";
 import { css } from "@emotion/react";
 
-function Contact() {
+function MenuPage() {
   const [loading, setLoading] = useState(false);
 
   const override = css`
@@ -34,15 +32,13 @@ function Contact() {
         />
       ) : (
         <div>
-          <HeaderContact />
-          <Viewer message="Contact Us" />
-          <Map />
-          <ContactUs />
-          <Footer />
+          <HeaderMenu />
+          <Viewer message="Menu / Online Order" />
+          <MenuBar />
         </div>
       )}
     </div>
   );
 }
 
-export default Contact;
+export default MenuPage;

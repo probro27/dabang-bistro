@@ -11,6 +11,7 @@ import GalleryPage from './components/GalleryPage';
 import Loyalty from './components/Loyalty';
 import Reservation from './components/Reservation';
 import Contact from './components/Contact';
+import MenuPage from './components/MenuPage';
 
 function App() {
   return (
@@ -25,6 +26,9 @@ function App() {
           </Route>
           <Route path="/gallery">
             <GalleryPage />
+          </Route>
+          <Route path="/menu">
+            <MenuPage />
           </Route>
           <Route path="/loyalty">
             <Loyalty />

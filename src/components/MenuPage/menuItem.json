@@ -1,0 +1,21 @@
+[
+    {
+        "title" : "Dabang Bistro",
+        "items" : [
+            {
+                "item_title" : "Vegetarian",
+                "veg_items" : [
+                    {
+                        "name" : "Paneer Tikka Wrap Combo",
+                        "description" : "Paneer Tikka Wrap comes with fries and a choice of 355-ml (Fountain Drink).", 
+                        "price" : "$9.85", 
+                        "src" : "http://dabangbistro.com/assets/img/menu/ImageComingSoon.jpg",
+                        "options" : [
+                            "Apple Juice", "Chaas + 1$"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

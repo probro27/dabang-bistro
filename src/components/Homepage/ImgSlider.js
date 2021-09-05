@@ -1,6 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
-import "./styles.css";
+import "../styles.css";
 
 function ImgSlider() {
   const settings = {

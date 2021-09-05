@@ -1,18 +1,46 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Header from "./Homepage/Header";
 import Viewer from "./All_Pages/Viewer";
 import AboutSection from "./Homepage/AboutSection";
 import Features from "./Homepage/Features";
 import Footer from "./All_Pages/Footer";
+import ClipLoader from "react-spinners/ClipLoader";
+import { css } from "@emotion/react";
 
 function Home() {
+  const [loading, setLoading] = useState(false);
+
+  const override = css`
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  `;
+
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+  }, []);
   return (
     <div>
-      <Header />
-      <Viewer message="Welcome You" />
-      <AboutSection />
-      <Features />
-      <Footer />
+      {loading ? (
+        <ClipLoader
+          color="#f9921a"
+          loading={loading}
+          css={override}
+          size={80}
+        />
+      ) : (
+        <div>
+          <Header />
+          <Viewer message="Welcome You" />
+          <AboutSection />
+          <Features />
+          <Footer />
+        </div>
+      )}
     </div>
   );
 }

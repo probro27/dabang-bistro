@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import "./styles.css"
+import "../styles.css"
 import { Carousel, CarouselItem } from "react-bootstrap";
 
 function Viewer(props) {
@@ -15,7 +15,7 @@ function Viewer(props) {
         data-ride="carousel"
         >
         <Carousel activeIndex = {index} onSelect = {handleSelect}>
-          <Carousel.Item>//style="height:100vh;"
+          <Carousel.Item>
             <img
               src="http://dabangbistro.com/assets/img/head-slider/DB%20email%202(Picture1).jpg"
               alt="Los Angeles"
@@ -37,7 +37,7 @@ function Viewer(props) {
               </div>
             </Carousel.Caption>
           </Carousel.Item>
-           <Carousel.Item>//style="height:100vh;"
+           <Carousel.Item>
             <img
               src="http://dabangbistro.com/assets/img/head-slider/DB%20email%202(Picture2).jpg"
               alt="Los Angeles"
@@ -58,7 +58,7 @@ function Viewer(props) {
               </div>
             </Carousel.Caption>
           </Carousel.Item>
-          <Carousel.Item>//style="height:100vh;"
+          <Carousel.Item>
             <img
               src="http://dabangbistro.com/assets/img/head-slider/DB%20email%202(Picture3).jpg"
               alt="Los Angeles"
@@ -79,7 +79,7 @@ function Viewer(props) {
               </div>
             </Carousel.Caption>
           </Carousel.Item>
-          <Carousel.Item>//style="height:100vh;"
+          <Carousel.Item>
             <img
               src="http://dabangbistro.com/assets/img/head-slider/DB%20email%202(Picture4).jpg"
               alt="Los Angeles"
@@ -100,7 +100,7 @@ function Viewer(props) {
               </div>
             </Carousel.Caption>
           </Carousel.Item>
-          <Carousel.Item>//style="height:100vh;"
+          <Carousel.Item>
             <img
               src="http://dabangbistro.com/assets/img/head-slider/DB%20email%202(Picture5).jpg"
               alt="Los Angeles"
@@ -121,7 +121,7 @@ function Viewer(props) {
               </div>
             </Carousel.Caption>
           </Carousel.Item>
-          <Carousel.Item>//style="height:100vh;"
+          <Carousel.Item>
             <img
               src="http://dabangbistro.com/assets/img/head-slider/DB%20email%202(Picture6).jpg"
               alt="Los Angeles"
@@ -142,7 +142,7 @@ function Viewer(props) {
               </div>
             </Carousel.Caption>
           </Carousel.Item>
-          <Carousel.Item>//style="height:100vh;"
+          <Carousel.Item>
             <img
               src="http://dabangbistro.com/assets/img/head-slider/DB%20email%202(Picture7).jpg"
               alt="Los Angeles"

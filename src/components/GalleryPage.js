@@ -2,7 +2,8 @@ import React, { useState, useEffect } from "react";
 import Footer from "./All_Pages/Footer";
 import Viewer from "./All_Pages/Viewer";
 import HeaderGallery from "./GalleryPage/HeaderGallery";
-import PicsVids from "./GalleryPage/PicsVids";
+// import PicsVids from "./GalleryPage/PicsVids";
+import PicVidsPanel from "./GalleryPage/PicVidsPanel";
 import ClipLoader from "react-spinners/ClipLoader";
 import { css } from "@emotion/react";
 import Scroll from "./All_Pages/Scroll";
@@ -36,7 +37,7 @@ function GalleryPage() {
         <div>
           <HeaderGallery />
           <Viewer message="Gallery" />
-          <PicsVids />
+          <PicVidsPanel />
           <Footer />
           <Scroll showBelow={250} />
         </div>

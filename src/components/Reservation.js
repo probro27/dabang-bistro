@@ -19,6 +19,7 @@ function Reservation() {
   `;
 
   useEffect(() => {
+    document.title = "Reservation"
     setLoading(true);
     setTimeout(() => {
       setLoading(false);

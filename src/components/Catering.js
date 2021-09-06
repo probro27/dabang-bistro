@@ -19,6 +19,7 @@ function Catering() {
   `;
 
   useEffect(() => {
+    document.title = "Catering";
     setLoading(true);
     setTimeout(() => {
       setLoading(false);

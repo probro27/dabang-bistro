@@ -19,6 +19,7 @@ function Contact() {
   `;
 
   useEffect(() => {
+    document.title = "Contact Us"
     setLoading(true);
     setTimeout(() => {
       setLoading(false);

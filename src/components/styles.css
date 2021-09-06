@@ -1063,6 +1063,16 @@ body {
     color: #bab3a6;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   }
+
+  select {
+
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 5px solid #f9921a;
+  }
+  
+  
   
   .menu .menu-content a {
     padding-right: 10px;

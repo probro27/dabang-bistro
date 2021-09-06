@@ -1,6 +1,7 @@
 [
     {
         "title" : "Dabang Quick Bite Wrap Combos - Take Out Only",
+        "onlyVeg" : "false",
         "items" : [
             {
                 "name" : "Paneer Tikka Wrap Combo",
@@ -9,7 +10,25 @@
                 "src" : "http://dabangbistro.com/assets/img/menu/ImageComingSoon.jpg",
                 "add_ons" : [
                     "Apple Juice",
-                    "Chaas + 1$"
+                    "Chaas + 1$",
+                    "Club-Soda",
+                    "Coffee + $1",
+                    "Coke",
+                    "Coke-zero",
+                    "Diet-Coke",
+                    "Ginger-Ale",
+                    "Green Tea + 1$",
+                    "Imli-Twist + 2$",
+                    "Lemonade + 1$",
+                    "Mango-Lassi + 3$",
+                    "Mango-Shake + 3$",
+                    "Masala-Chai + $1",
+                    "Nestea",
+                    "Orange-Fanta",
+                    "Orange-Juice + $1",
+                    "Salted-Lassi + $3",
+                    "Sprite",
+                    "Sweet-Lassi + $3"
                 ]
             }, 
             {
@@ -19,7 +38,53 @@
                 "src":"http://dabangbistro.com/assets/img/menu/ImageComingSoon.jpg",
                 "add_ons" :[
                     "Apple Juice",
-                    "Chaas + 1$"
+                    "Chaas + 1$",
+                    "Club-Soda",
+                    "Coffee + $1",
+                    "Coke",
+                    "Coke-zero",
+                    "Diet-Coke",
+                    "Ginger-Ale",
+                    "Green Tea + 1$",
+                    "Imli-Twist + 2$",
+                    "Lemonade + 1$",
+                    "Mango-Lassi + 3$",
+                    "Mango-Shake + 3$",
+                    "Masala-Chai + $1",
+                    "Nestea",
+                    "Orange-Fanta",
+                    "Orange-Juice + $1",
+                    "Salted-Lassi + $3",
+                    "Sprite",
+                    "Sweet-Lassi + $3"
+                ]
+            }, 
+            {
+                "name" : "Veg Kebab Wrap Combo",
+                "description" : "Veg Kebab Wrap comes with fries and a choice of 355-ml (Fountain Drink).",
+                "price" : "$6.85",
+                "src":"http://dabangbistro.com/assets/img/menu/ImageComingSoon.jpg",
+                "add_ons" :[
+                    "Apple Juice",
+                    "Chaas + 1$",
+                    "Club-Soda",
+                    "Coffee + $1",
+                    "Coke",
+                    "Coke-zero",
+                    "Diet-Coke",
+                    "Ginger-Ale",
+                    "Green Tea + 1$",
+                    "Imli-Twist + 2$",
+                    "Lemonade + 1$",
+                    "Mango-Lassi + 3$",
+                    "Mango-Shake + 3$",
+                    "Masala-Chai + $1",
+                    "Nestea",
+                    "Orange-Fanta",
+                    "Orange-Juice + $1",
+                    "Salted-Lassi + $3",
+                    "Sprite",
+                    "Sweet-Lassi + $3"
                 ]
             }
         ]

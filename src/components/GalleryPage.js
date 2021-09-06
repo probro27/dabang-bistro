@@ -19,6 +19,7 @@ function GalleryPage() {
   `;
 
   useEffect(() => {
+    document.title = "Gallery";
     setLoading(true);
     setTimeout(() => {
       setLoading(false);

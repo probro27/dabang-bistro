@@ -20,6 +20,7 @@ function MenuPage() {
   `;
 
   useEffect(() => {
+    document.title = "Menu";
     setLoading(true);
     setTimeout(() => {
       setLoading(false);

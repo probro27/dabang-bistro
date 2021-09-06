@@ -18,6 +18,7 @@ function Loyalty() {
   `;
 
   useEffect(() => {
+    document.title = "Loyalty Programs"
     setLoading(true);
     setTimeout(() => {
       setLoading(false);

@@ -18,6 +18,7 @@ function Specials() {
   `;
 
   useEffect(() => {
+    document.title = "Speacials";
     setLoading(true);
     setTimeout(() => {
       setLoading(false);

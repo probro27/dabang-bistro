@@ -19,6 +19,7 @@ function Home() {
   `;
 
   useEffect(() => {
+    document.title = "Home";
     setLoading(true);
     setTimeout(() => {
       setLoading(false);

@@ -14,11 +14,12 @@ function MenuPanelItem(props) {
         <select name="favourite" id="favourite">
         <option value="a">Options</option>
             {
+                props.add?
                 props.add.map((add_item) => {
                     return(
                         <option>{add_item}</option>
                     )
-                })
+                }) :  null
             }
         </select>
       </div>

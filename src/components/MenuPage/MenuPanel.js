@@ -12,6 +12,7 @@ function MenuPanel(props) {
       >
         {props.title}
       </h3>
+      {console.log(props.onlyVeg)}
       {!props.onlyVeg ? (
         <div class="row mt-5" data-aos-delay="200">
           <div class="col-6 text-center">
@@ -55,19 +56,28 @@ function MenuPanel(props) {
           </div>
         </div>
       )}
-      <MenuGrid>
+      <MenuGrid id={props.id}>
         {console.log(props.items)}
         {props.items
           ? props.items.map((item) => {
-              return (
-                <MenuPanelItem
-                  name={item.name}
-                  description={item.description}
-                  src={item.src}
-                  price={item.price}
-                  add={item.add_ons}
-                />
-              );
+              if(item.name != ""){
+                return (
+                    <MenuPanelItem
+                      name={item.name}
+                      description={item.description}
+                      src={item.src}
+                      price={item.price}
+                      add={item.add_ons}
+                    />
+                  );
+              }
+              else{
+                  return (
+                      <div>
+
+                      </div>
+                  )
+              } 
             })
           : null}
       </MenuGrid>

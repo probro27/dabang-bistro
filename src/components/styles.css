@@ -951,8 +951,13 @@ body {
   /*--------------------------------------------------------------
   # Why Us
   --------------------------------------------------------------*/
+
+  #center_wcor
+  {
+    text-align: center;
+  }
   .why-us .box {
-    /* height: 250px; */
+    height: 250px;
     padding: 50px 30px;
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
     transition: all ease-in-out 0.3s;
@@ -967,14 +972,14 @@ body {
     background: #1a1814;
   }
   
-  .why-us .box, .box-2 span {
+  .why-us .box span, .box-2 span {
     display: block;
     font-size: 28px;
     font-weight: 700;
     color: #f9921a;
   }
   
-  .why-us, .box, .box-2 h4 {
+  .why-us .box h4, .box-2 h4 {
     font-size: 24px;
     font-weight: 600;
     padding: 0;
@@ -982,7 +987,7 @@ body {
     color: #f9921a;
   }
   
-  .why-us .box, .box-2 p {
+  .why-us .box p, .box-2 p {
     color: #aaaaaa;
     font-size: 15px;
     margin: 0;

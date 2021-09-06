@@ -23,7 +23,7 @@ function MenuSection(){
                     console.log(post)
                     return(
                         Data?
-                        <MenuPanel title={post.title} items={post.items} />
+                        <MenuPanel title={post.title} onlyVeg={post.onlyVeg} items={post.items} />
                         : "Loading"
                     )
                 }) }

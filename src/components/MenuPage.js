@@ -6,6 +6,8 @@ import Footer from "./All_Pages/Footer";
 import ClipLoader from "react-spinners/ClipLoader";
 import { css } from "@emotion/react";
 import Scroll from "./All_Pages/Scroll";
+import MenuSection from "./MenuPage/MenuSection";
+import { MenuContextProvider } from "./MenuPage/MenuContext";
 
 function MenuPage() {
   const [loading, setLoading] = useState(false);
@@ -37,6 +39,9 @@ function MenuPage() {
           <HeaderMenu />
           <Viewer message="Menu / Online Order" />
           <MenuBar />
+          {/* <MenuContextProvider> */}
+            <MenuSection></MenuSection>
+          {/* </MenuContextProvider> */}
           <Footer />
           <Scroll showBelow={250} />
         </div>

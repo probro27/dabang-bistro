@@ -2,6 +2,7 @@ import React from "react";
 import "../styles.css";
 import { Link } from "react-router-dom";
 
+
 function Header() {
   return (
     <header id="header" className="navbar navbar-expand-md navbar-sticky-top navbar-center fixed-top">

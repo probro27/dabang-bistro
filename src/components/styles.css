@@ -1512,6 +1512,10 @@ body {
  .gallery-item:hover img {
     transform: scale(1.1);
   }
+
+  .video-element {
+    margin-left: 2px;
+  }
   
   /*--------------------------------------------------------------
   # Chefs

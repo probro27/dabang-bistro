@@ -2,8 +2,7 @@ import React from "react";
 
 function VideoPanelItem(props) {
   return (
-    <div>
-      <div className="embed-responsive embed-responsive-16by9 z-depth-1-half">
+      <div className="col-lg-3 embed-responsive embed-responsive-16by9 z-depth-1-half">
         <iframe
           className="embed-responsive-item"
           width="300px"
@@ -11,8 +10,7 @@ function VideoPanelItem(props) {
           src={props.src}
           allowfullscreen
         ></iframe>
-      </div>{" "}
-    </div>
+      </div>
   );
 }
 
